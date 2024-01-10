@@ -466,6 +466,68 @@ tag = ordn;
 {
 code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;";
 tag = case;
+},
+{
+automatic = 1;
+code = "sub A by A.ss01;
+sub L by L.ss01;
+sub M by M.ss01;
+sub Q by Q.ss01;
+sub R by R.ss01;
+sub S by S.ss01;
+sub Germandbls by Germandbls.ss01;
+sub Z by Z.ss01;
+sub a by a.ss01;
+sub f by f.ss01;
+sub g by g.ss01;
+sub h by h.ss01;
+sub m by m.ss01;
+sub n by n.ss01;
+sub s by s.ss01;
+sub scedilla by scedilla.ss01;
+sub t by t.ss01;
+sub u by u.ss01;
+sub uogonek by uogonek.ss01;
+sub y by y.ss01;
+sub z by z.ss01;
+sub three by three.ss01;
+sub five by five.ss01;
+sub eight by eight.ss01;
+sub questiondown by questiondown.ss01;
+sub section by section.ss01;
+";
+tag = ss01;
+},
+{
+automatic = 1;
+code = "sub L by L.ss02;
+sub Q by Q.ss02;
+sub a by a.ss02;
+sub b by b.ss02;
+sub d by d.ss02;
+sub f by f.ss02;
+sub g by g.ss02;
+sub l by l.ss02;
+sub o by o.ss02;
+sub p by p.ss02;
+sub q by q.ss02;
+sub s by s.ss02;
+sub t by t.ss02;
+sub seven by seven.ss02;
+";
+tag = ss02;
+},
+{
+automatic = 1;
+code = "sub t by t.ss03;
+";
+tag = ss03;
+},
+{
+automatic = 1;
+code = "sub t by t.ss04;
+";
+tag = ss04;
 }
 );
 fontMaster = (
@@ -38400,6 +38462,14 @@ nodes = (
 width = 472;
 }
 );
+}
+);
+instances = (
+{
+instanceInterpolations = {
+"49F060A0-2273-4F54-8B81-08E0B15B03EC" = 1;
+};
+name = Regular;
 }
 );
 kerningLTR = {
