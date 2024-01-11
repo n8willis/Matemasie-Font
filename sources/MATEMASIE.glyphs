@@ -33,7 +33,8 @@ w,
 "õ",
 "ẀW",
 s,
-S
+S,
+n
 );
 customParameters = (
 {
@@ -714,6 +715,9 @@ pos = 600;
 }
 );
 name = Regular;
+stemValues = (
+195
+);
 userData = {
 GSCornerRadius = 10;
 };
@@ -38501,6 +38505,11 @@ type = descender;
 },
 {
 type = "x-height";
+}
+);
+stems = (
+{
+name = lowercase;
 }
 );
 unitsPerEm = 1000;
