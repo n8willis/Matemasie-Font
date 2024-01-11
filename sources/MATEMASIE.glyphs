@@ -34,7 +34,7 @@ w,
 "ẀW",
 s,
 S,
-n
+o
 );
 customParameters = (
 {
@@ -716,7 +716,8 @@ pos = 600;
 );
 name = Regular;
 stemValues = (
-195
+195,
+85
 );
 userData = {
 GSCornerRadius = 10;
@@ -38509,7 +38510,11 @@ type = "x-height";
 );
 stems = (
 {
-name = lowercase;
+name = vStem0;
+},
+{
+horizontal = 1;
+name = hStem0;
 }
 );
 unitsPerEm = 1000;
